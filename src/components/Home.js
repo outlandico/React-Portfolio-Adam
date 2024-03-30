@@ -1,27 +1,27 @@
-import React, { Component } from "react";
-import Projects from "./Projects";
-import Skills from "./Skills";
-import Experience from "./Experience";
+import React from 'react';
+import AdobeProducts from './AdobeProducts'; // Update the path if needed
 
-class Home extends Component {
-  render() {
-    return (
-      <div>
-        <Projects
-          resumeProjects={this.props.resumeData.projects}
-          resumeBasicInfo={this.props.resumeData.basic_info}
-        />
-        <Skills
-          sharedSkills={this.props.sharedData.skills}
-          resumeBasicInfo={this.props.resumeData.basic_info}
-        />
-        <Experience
-          resumeExperience={this.props.resumeData.experience}
-          resumeBasicInfo={this.props.resumeData.basic_info}
-        />
-      </div>
-    );
-  }
-}
+const Home = () => {
+  // Sample data about Adobe products suite
+  const adobeProductsData = [
+    {
+      name: 'Adobe Photoshop',
+      description: 'A powerful image editing software used by professionals worldwide.',
+    },
+    {
+      name: 'Adobe Illustrator',
+      description: 'A vector graphics editor used to create illustrations, logos, icons, etc.',
+    },
+    // Add more Adobe products as needed
+  ];
+
+  return (
+    <div>
+      {/* Other content */}
+      <AdobeProducts adobeProducts={adobeProductsData} />
+      {/* Other content */}
+    </div>
+  );
+};
 
 export default Home;
