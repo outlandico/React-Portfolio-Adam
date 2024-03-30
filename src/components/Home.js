@@ -1,5 +1,4 @@
 import React from 'react';
-import AdobeProducts from './AdobeProducts'; // Update the path if needed
 
 const Home = () => {
   // Sample data about Adobe products suite
@@ -18,7 +17,14 @@ const Home = () => {
   return (
     <div>
       {/* Other content */}
-      <AdobeProducts adobeProducts={adobeProductsData} />
+      <div className="adobe-products">
+        {adobeProductsData.map((product, index) => (
+          <div key={index} className="adobe-product">
+            <h3>{product.name}</h3>
+            <p>{product.description}</p>
+          </div>
+        ))}
+      </div>
       {/* Other content */}
     </div>
   );

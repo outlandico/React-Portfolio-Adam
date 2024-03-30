@@ -31,7 +31,7 @@ class Header extends Component {
       this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
-    const HeaderTitleTypeAnimation = React.memo( () => {
+    const HeaderTitleTypeAnimation = React.memo(() => {
       return this.titles
     }, (props, prevProp) => true);
 
@@ -109,7 +109,6 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              
             </div>
           </div>
         </div>
