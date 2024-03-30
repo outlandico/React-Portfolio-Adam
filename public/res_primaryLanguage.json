@@ -1,7 +1,13 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Adam Jimenez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I went to Orange Coast College in Costa Mesa, CA. My major was Graphic Design. I also have familiarity of JavaScript, Website Design, Photography and Videography. 
+
+      I recently have become better at free-hand drawing.
+      
+      I am familiar with the following Software Applications: Adobe Products and Microsoft Word/Excel.
+      
+      I come with a Military background in which I've demonstrated Leadership skills as well as to give/take direction. The Military teaches you how to perform, collaborate and to engage in Team-Work enironment.👍🏻",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -42,7 +48,7 @@
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/outlandico",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -62,7 +68,7 @@
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/outlandico",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
